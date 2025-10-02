@@ -1,0 +1,40 @@
+{
+ "actions": [],
+ "allow_rename": 1,
+ "creation": "2025-09-28 17:12:08.540483",
+ "doctype": "DocType",
+ "editable_grid": 1,
+ "engine": "InnoDB",
+ "field_order": [
+  "task_descriptions",
+  "completion_status"
+ ],
+ "fields": [
+  {
+   "fieldname": "task_descriptions",
+   "fieldtype": "Small Text",
+   "in_list_view": 1,
+   "label": "Task descriptions"
+  },
+  {
+   "fieldname": "completion_status",
+   "fieldtype": "Data",
+   "in_list_view": 1,
+   "label": "completion status"
+  }
+ ],
+ "grid_page_length": 50,
+ "index_web_pages_for_search": 1,
+ "istable": 1,
+ "links": [],
+ "modified": "2025-09-28 18:03:09.974592",
+ "modified_by": "Administrator",
+ "module": "Equipment Maintenance",
+ "name": "Maintenance Tasks",
+ "owner": "Administrator",
+ "permissions": [],
+ "row_format": "Dynamic",
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "states": []
+}
